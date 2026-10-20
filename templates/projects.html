@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id" style="background-color:#0A0A0C;color-scheme:dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abel — Projects</title>
+    <style>html,body{background-color:#0A0A0C}</style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="/" class="logo"><span>A</span>bel</a>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/skills">Skills</a>
+            <a href="/projects" class="active">Projects</a>
+            <a href="/blog">Blog</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section">
+            <h3 class="section-title">Proyek</h3>
+            <div class="project-grid stagger">
+                <div class="project-card">
+                    <div class="project-thumb">
+                        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                    </div>
+                    <div class="project-body">
+                        <h4>Tugas Akhir DPIB</h4>
+                        <p>Membuat desain rumah 2 lantai menggunakan app Autocad 3D.</p>
+                        <div class="project-tech">
+                            <span>Autocad</span><span>Sketchup</span><span>Layout</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-thumb">
+                        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.7 4 3 9 3s9-1.3 9-3V5"/><path d="M3 12c0 1.7 4 3 9 3s9-1.3 9-3"/></svg>
+                    </div>
+                    <div class="project-body">
+                        <h4>Menghitung nilai rata-rata mahasiswa</h4>
+                        <p>Membuat program sederhana untuk menghitung nilai rata-rata mahasiswa dari beberapa nilai yang dimasukkan.</p>
+                        <div class="project-tech">
+                            <span>Python<span>VsCode</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-thumb">
+                        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="4"/><path d="M6 12h4M8 10v4M15 11h.01M18 13h.01"/></svg>
+                    </div>
+                    <div class="project-body">
+                        <h4>Praktik Git & GitHub</h4>
+                        <p>Menyimpan riwayat perubahan project agar dapat melihat dan melacak perubahan yang sudah dilakukan.</p>
+                        <div class="project-tech">
+                            <span>Git</span><span>GitHub</span><span>VsCode</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-thumb">
+                        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+                    </div>
+                    <div class="project-body">
+                        <h4>Web Scraper</h4>
+                        <p>Tool scraping sederhana pakai Python untuk mengambil data dari halaman web.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-thumb">
+                        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h11l5 5v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z"/><path d="M14 4v6h6"/></svg>
+                    </div>
+                    <div class="project-body">
+                        <h4>Desain Presentasi, dan poster</h4>
+                        <p>Membuat dan mengatur desain visual poster dan presentasi agar rapi, lebih menarik dan mudah dipahami.</p>
+                        <div class="project-tech">
+                            <span>Canva</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-thumb">
+                        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18"/><path d="M6 20V10M11 20V4M16 20v-8M21 20v-4"/></svg>
+                    </div>
+                    <div class="project-body">
+                        <h4>Microsoft Office</h4>
+                        <p>Membuat laporan Praktikum & Makalah, membuat presentasi, dan mencatat keuangan.</p>
+                        <div class="project-tech">
+                            <span>Microsoft Word</span><span>Microsoft Powerpoint</span><span>Microsoft Excel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 Abel
+    </footer>
+</body>
+</html>
